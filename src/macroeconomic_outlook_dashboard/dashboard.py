@@ -109,6 +109,12 @@ fig = draw_multiple_series_trace(df_raw, series_list, "2019-Q4")
 # ----------output----------
 "# Macroeconomic Outlook - May 2024"
 
+"This is a work in progress."
+
+"This is a port of the [Macroeconomic Outlook presentation](https://www.cepremap.fr/observatoire-macroeconomie/macroeconomic-outlook/) as a web dashboard using [Streamlit](https://streamlit.io/)."
+
+"[Source code](https://git.nomics.world/dbnomics/dbnomics-dashboards/macroeconomic-outlook-dashboard)"
+
 "## Growth and inflation in selected G20 countries"
 
 "### Growth rates were quite similar in advanced economies in the first quarter"
