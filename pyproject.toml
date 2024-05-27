@@ -23,4 +23,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/macroeconomic_outlook"]
+packages = ["src/macroeconomic_outlook_dashboard"]

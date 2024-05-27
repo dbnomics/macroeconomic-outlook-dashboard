@@ -17,5 +17,5 @@ pip install -r requirements.lock
 ## Usage
 
 ```bash
-streamlit run src/macroeconomic_outlook/dashboard.py
+streamlit run src/macroeconomic_outlook_dashboard/dashboard.py
 ```
