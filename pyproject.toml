@@ -1,0 +1,25 @@
+[project]
+name = "macroeconomic-outlook"
+version = "0.1.0"
+description = "Macroeconomic Outlook dashboard"
+authors = [
+    { name = "Baran Açıkel", email = "wbaranacikelw@gmail.com" },
+    { name = "Christophe Benz", email = "christophe.benz@nomics.world" },
+]
+dependencies = ["dbnomics>=1.2.5", "plotly>=5.22.0", "streamlit>=1.35.0"]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/macroeconomic_outlook"]
