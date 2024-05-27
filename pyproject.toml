@@ -1,5 +1,5 @@
 [project]
-name = "macroeconomic-outlook"
+name = "macroeconomic-outlook-dashboard"
 version = "0.1.0"
 description = "Macroeconomic Outlook dashboard"
 authors = [
