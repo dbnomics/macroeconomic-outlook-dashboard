@@ -7,7 +7,7 @@ authors = [
     { name = "Christophe Benz", email = "christophe.benz@nomics.world" },
 ]
 dependencies = ["dbnomics>=1.2.5", "plotly>=5.22.0", "streamlit>=1.35.0"]
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">= 3.12"
 
