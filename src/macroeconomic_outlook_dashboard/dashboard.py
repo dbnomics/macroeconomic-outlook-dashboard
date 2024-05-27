@@ -101,12 +101,22 @@ def draw_multiple_series_trace(df: DataFrame, series_list: list[str], base_perio
     return fig
 
 
-# ----------operations----------
+st.set_page_config(layout="wide")
 df_raw = get_series_data(series_list)
 df = pivot_and_slice_dataframe(df_raw, "2021-Q4")
 fig = draw_multiple_series_trace(df_raw, series_list, "2019-Q4")
 
 # ----------output----------
-"# Growth Rates"
-df
+"# Macroeconomic Outlook - May 2024"
+
+"## Growth and inflation in selected G20 countries"
+
+"### Growth rates were quite similar in advanced economies in the first quarter"
+
+"Growth was positive for all main advanced economies in the first quarter of 2024 (except for Japan), following a strong divergence in 2023. However, the OECD have severely revised downward their growth projections for 2024 for European countries and revised upwards those for the US."
+
+
+"### Quarterly GDP growth rate (% change over the previous period)"
+st.dataframe(df)
+
 fig
